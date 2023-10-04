@@ -6,6 +6,36 @@
 
 header {
     margin-bottom: 60px;
+    color: #fffbf9;
+    background-color: #ff6900;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .contenitore {
+    justify-content: space-between;
+    padding: 12.5px;
+    align-items: center;
+}
+
+header .contenitore>* {
+    width: 180px;
+}
+
+.icons {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+li {
+    display: inline;
+}
+
+header ul {
+    font-weight: bold;
 }
 
 .contenitore {
