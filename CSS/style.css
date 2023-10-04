@@ -5,10 +5,14 @@
 }
 
 header {
-    margin-bottom: 60px;
     color: #fffbf9;
     background-color: #ff6900;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
 }
 
 header .contenitore {
@@ -36,6 +40,10 @@ li {
 
 header ul {
     font-weight: bold;
+}
+
+main {
+    margin-top: 120px;
 }
 
 .contenitore {
