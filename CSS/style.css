@@ -18,12 +18,12 @@ header {
 
 .item {
     width: calc(100% / 3);
-    background-color: red;
     padding: 12.5px;
 }
 
 .card {
     position: relative;
+    height: 445.148px;
 }
 
 .card>* {
@@ -37,6 +37,10 @@ img {
     left: 0;
 }
 
+.immagine-a:hover {
+    opacity: 0;
+}
+
 .heart {
     top: 0;
     right: 0;
@@ -47,12 +51,53 @@ img {
 }
 
 .heart:hover {
-    color: red;
+    color: #ff0000;
 }
 
 .low {
     bottom: 0;
     left: 0;
+    margin-bottom: 43px;
+}
+
+.low * {
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.descrizione {
+    width: 100%;
+}
+
+.marca {
+    font-size: 14px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.prezzo {
+    font-size: 12px;
+}
+
+.rosso {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.tagliato {
+    text-decoration: line-through;
 }
 
 footer {
