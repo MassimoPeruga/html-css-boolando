@@ -132,4 +132,30 @@ img {
 
 footer {
     margin-top: 60px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 30px;
+}
+
+footer .contenitore {
+    justify-content: space-between;
+    padding: 0 12.5px
+}
+
+h4 {
+    margin-bottom: 16px;
+}
+
+h5 {
+    margin-bottom: 14px;
+    margin-left: 10px;
+}
+
+#sinistra li {
+    margin-right: 10px;
+}
+
+#destra li {
+    margin-left: 10px;
 }
