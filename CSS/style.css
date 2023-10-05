@@ -21,11 +21,16 @@ header .contenitore {
     align-items: center;
 }
 
-header .contenitore>* {
+.gender {
     width: 180px;
 }
 
+#logo {
+    width: 150px;
+}
+
 .icons {
+    width: 180px;
     text-align: right;
 }
 
@@ -77,15 +82,15 @@ img {
 
 .immagine-a:hover {
     opacity: 0;
+    transition: all 0.5s linear;
 }
 
 .heart {
-    top: 0;
+    top: 10px;
     right: 0;
     background-color: white;
     font-size: 20px;
     padding: 5px 10px;
-    margin-top: 10px;
 }
 
 .heart:hover {
@@ -93,12 +98,12 @@ img {
 }
 
 .low {
-    bottom: 0;
+    bottom: 43px;
     left: 0;
-    margin-bottom: 43px;
 }
 
 .low * {
+    display: inline-block;
     color: white;
     padding: 5px 10px;
     font-size: 12px;
